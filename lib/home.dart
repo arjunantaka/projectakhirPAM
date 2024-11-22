@@ -48,8 +48,7 @@ class _HomePageState extends State<HomePage> {
 
     try {
       final query = selectedCategory ?? currentQuery;
-      final apiKey =
-          'AIzaSyAlVfo-3_7wNZg1WrphTR5w1V_GCOQAmH4'; // Ganti dengan kunci API Anda
+      final apiKey = ''; // Ganti dengan kunci API Anda
       final url =
           'https://www.googleapis.com/books/v1/volumes?q=$query&langRestrict=id&startIndex=$startIndex&maxResults=$maxResults&key=$apiKey';
       final response =
